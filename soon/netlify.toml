@@ -4,6 +4,11 @@ to = "index.html"
 status = 404
 
 [[redirects]]
-from = "/assets"
+from = "/assets/*"
+to = "index.html"
+status = 404
+
+[[redirects]]
+from = "/css/*"
 to = "index.html"
 status = 404
