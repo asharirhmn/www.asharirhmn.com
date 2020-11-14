@@ -1,11 +1,11 @@
 
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:700,400);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,300);
 
 body {
     padding-top: 70px;
 	color: #222;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', 'Rubik', sans-serif;
     font-size: 17px;
     line-height: 1.8 !important;
 }
@@ -15,14 +15,15 @@ html {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Work Sans', 'Rubik', sans-serif;
 	font-weight:200;
 	color: #222;
 }
 
 p{
-	font-family: 'Playfair Display', serif;
-	font-weight:300;
+	font-family: 'Work Sans','Rubik', serif;
+  font-weight:400;
+
 }
 
 section {
@@ -104,7 +105,7 @@ a:hover,a:focus {
     border: medium none;
     border-radius: 0;
     color: #fff;
-    cursor: pointer;
+    cursor: poRubik;
     height: 50px;
     padding: 16px;
     width: 50px;
@@ -234,7 +235,7 @@ a:hover,a:focus {
   position: relative;
   text-align: left;
   background: #cccccc;
-  cursor:pointer;
+  cursor:poRubik;
 }
 
 .hovereffect .overlay {
@@ -245,7 +246,7 @@ a:hover,a:focus {
   top: 0;
   left: 0;
   padding: 50px 20px;
-  cursor:pointer;
+  cursor:poRubik;
 }
 
 .hovereffect a, .hovereffect p,.hovereffect h2 {
@@ -286,7 +287,7 @@ a:hover,a:focus {
   transform: translate3d(-10px,0,0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  cursor:pointer;
+  cursor:poRubik;
 }
 
 .hovereffect:hover img {
@@ -470,7 +471,7 @@ footer {
 }
 
 footer p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Work Sans', 'Rubik', sans-serif;
 	font-weight:200;
 	font-size:0.7em;
 	text-transform:uppercase;
