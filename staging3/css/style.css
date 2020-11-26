@@ -3,7 +3,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Inter', helvetica;
+  font-family: 'Rubik', helvetica;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -20,6 +20,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+h1 {
+  color: #292929;
+  font-family: 'Inter', helvetica;
+  font-weight: 900;
 }
 
 h2 {
@@ -114,7 +120,7 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.5s;
-  cursor: pointer;
+  cursor: poInter;
   border-radius: 10px;
 }
 
@@ -222,7 +228,7 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family:'Work Sans', 'Rubik', sans-serif;
+  font-family:'Work Sans', 'Inter', sans-serif;
   font-size: 14px;
   margin-left: 40px;
 }
@@ -233,7 +239,7 @@ nav ul li a {
   display: block;
   font-size: 14px;
   color: #999999;
-  font-family: 'Work Sans', 'Rubik', helvetica;
+  font-family: 'Work Sans', 'Inter', helvetica;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
@@ -405,7 +411,7 @@ nav ul li a {
   border: 0;
   padding: 0 !important;
   background-color: #ddd;
-  cursor: pointer;
+  cursor: poInter;
 }
 
 .services-carousel .owl-dot.active {
@@ -446,7 +452,7 @@ nav ul li a {
   font-size: 14px;
   color: #999999;
   line-height: 16px;
-  cursor: pointer;
+  cursor: poInter;
   font-family: 'Work Sans', helvetica;
   font-weight: 500;
   letter-spacing: 0.02em;
