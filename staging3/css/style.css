@@ -131,6 +131,7 @@ p {
   background-color: transparent; 
   color: #000; 
   border: 2.5px solid #0f4c81;
+  outline: none !important;
 }
 
 .button:hover {
