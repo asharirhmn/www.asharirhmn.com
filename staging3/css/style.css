@@ -122,6 +122,7 @@ p {
   transition-duration: 0.5s;
   cursor: poInter;
   border-radius: 10px;
+  outline: none !important;
 }
 
 .button {
