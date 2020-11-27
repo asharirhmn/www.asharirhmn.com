@@ -20,11 +20,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  font-family: 'Work Sans';
 }
 
 h1 {
   color: #292929;
-  font-family: 'Inter', helvetica;
+  font-family: 'Work Sans', helvetica;
   font-weight: 900;
 }
 
@@ -157,7 +158,7 @@ p {
 }
 
 .section-title h2 {
-  font-size: 25px;
+  font-size: 35px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -213,7 +214,7 @@ nav {
   background: #fff;
   z-index: 1000;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   display: none;
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
@@ -230,19 +231,21 @@ nav {
 nav ul li {
   float: left;
   margin-right: 15px;
-  font-family:'Work Sans', 'Inter', sans-serif;
-  font-size: 14px;
+  font-family:'Rubik', sans-serif;
+  font-size: large;
+  font-weight: 700;
   margin-left: 40px;
+  color:#999999;
 }
 
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
   display: block;
-  font-size: 14px;
+  font-size: large;
   color: #999999;
-  font-family: 'Work Sans', 'Inter', helvetica;
-  font-weight: 500;
+  font-family: 'Rubik', helvetica;
+  font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -341,14 +344,15 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Inter', sans-serif;
-  font-size: 28px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
   font-weight: 700;
   text-align: left;
+  color: #999999;
 }
 
 #about .about-descr .separator {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
   max-width: 80%;
   margin-bottom: 0;
   text-align: left;
